@@ -1,55 +1,95 @@
-# Prerequisites
-*.d
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+Desktop.ini
 
-# Object files
-*.o
-*.ko
+# --- Editors/IDEs ---
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.iml
+*.VC.db
+*.VC.opendb
+
+# VS Code (keep .vscode/settings.json if you want; otherwise ignore all)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+
+# --- Build systems ---
+# CMake / Ninja / Make
+/build/
+/out/
+/bin/
+/obj/
+/lib/
+/dist/
+/release/
+/debug/
+/Debug/
+/Release/
+/RelWithDebInfo/
+/MinSizeRel/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+makefile
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# --- C/C++ artifacts ---
+# MSVC
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
+*.iobj
+*.ipdb
 *.idb
 *.pdb
+*.ilk
+*.pch
+*.sbr
+*.tlh
+*.tli
+*.exp
+*.lib
+*.dll
+*.exe
+*.log
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# GCC/Clang
+*.o
+*.a
+*.so
+*.dylib
+*.out
 
-# debug information files
-*.dwo
+# Coverage / analysis
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# C cache / tooling
+.ccache/
+.clangd/
+.cache/
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Raylib generated caches (if any custom)
+raylib-*/.cache/
