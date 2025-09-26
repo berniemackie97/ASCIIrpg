@@ -1,0 +1,11 @@
+﻿  game.c
+  main.c
+D:\Development\repos\GameDev\ASCIIrpg\ASCIIrpg\main.c(6,9): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Development\repos\GameDev\ASCIIrpg\ASCIIrpg\main.c(8,3): warning C4013: 'game_startup' undefined; assuming extern returning int
+D:\Development\repos\GameDev\ASCIIrpg\ASCIIrpg\main.c(12,5): warning C4013: 'game_update' undefined; assuming extern returning int
+D:\Development\repos\GameDev\ASCIIrpg\ASCIIrpg\main.c(14,5): warning C4013: 'game_draw' undefined; assuming extern returning int
+D:\Development\repos\GameDev\ASCIIrpg\ASCIIrpg\main.c(17,3): warning C4013: 'game_shutdown' undefined; assuming extern returning int
+  map.c
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  ASCIIrpg.vcxproj -> D:\Development\repos\GameDev\ASCIIrpg\ASCIIrpg\x64\Debug\ASCIIrpg.exe
