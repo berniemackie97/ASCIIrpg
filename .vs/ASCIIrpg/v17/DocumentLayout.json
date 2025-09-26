@@ -55,8 +55,7 @@
               "RelativeToolTip": "src\\gamemap.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-26T06:21:44.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T06:21:44.463Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "src\\game.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-26T06:21:43.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T06:21:43.587Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "src\\main.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-26T06:21:41.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T06:21:41.459Z"
             }
           ]
         }
